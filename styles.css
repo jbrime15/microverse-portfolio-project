@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+#navbar{
+    background-color: #c51919;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+ul.nav-links {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+   
+    margin: 0;
+    padding: 0;
+}
+ul li a {
+    text-decoration: none;
+    color: hsl(204, 24%, 96%);
+    padding: 0.5vw;   
+}
+ul li {
+    margin: 0 2vw;
+    list-style: none;
+    font-size: 1.1rem;
+}
+ul li a:hover {
+    color: #304353;
+    background: #fff;
+    padding: 0.5rem;
+}
+
+div.welcome{
+min-height: 40vw;
+background-color: hsl(210, 6%, 13%);
+display: grid;
+text-align: center;
+}
+
+div.welcome h1{
+
+    color: #fff;
+   margin-top: 170px;
+    font-size: 80px;
+}
+
+div.welcome h2{
+
+    color: rgb(179, 56, 56);
+   margin-bottom: 250px;
+    font-size: 30px;
+}
+div#Project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    padding: 4rem 6rem;
+}
+
+div#project-tile {
+    display: flex;
+    justify-content: space-between;
+}
